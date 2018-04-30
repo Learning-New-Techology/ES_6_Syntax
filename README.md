@@ -58,3 +58,17 @@ OBJ.age=30;
 
 console.log(OBJ); 
 ```
+
+A weird syntax: 
+
+```javascript 
+function doSomething()
+{
+  age=27; 
+}
+let age=10; 
+doSomething();
+console.log(age)
+```
+
+### 
