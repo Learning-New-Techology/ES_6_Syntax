@@ -88,3 +88,37 @@ let obj= {
 console.log(obj); 
 obj.printName()
 ```
+
+### Loops and arrays
+```javascript
+let numbers=[1,2,3,4,5]; 
+
+function sumUp(toAdd){
+  let result=0; 
+  for(let i=0; i<toAdd.length;i++) {
+    result=result+toAdd[i]; 
+  }
+  return result; 
+}
+
+console.log(sumUp(numbers))
+```
+
+### Get maximum number from a list 
+
+```javascript 
+let numbers=[1,2,3,5,10,0,6]; 
+
+function getMaximum(numbers){
+  let max=0; 
+  for (let i=0;i<numbers.length;i++)
+    {
+      if (numbers[i]>max){
+        max=numbers[i]; 
+      }
+    }
+  return max; 
+}
+```
+
+###
