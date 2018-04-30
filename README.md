@@ -37,3 +37,24 @@ age=28; // This will give an error.
 console.log(age); 
 ```
 
+Const will not affect the arrays though as arrays are based on pointers. 
+
+```javascript
+const AGES=[10,20,30]; 
+console.log(AGES); 
+AGES.push(25); 
+console.log(AGES); // Prints [10,20,30,25]
+``` 
+
+It is same with object as well. 
+
+```javascript 
+const OBJ= {
+  age: 27
+}; 
+
+console.log(OBJ); 
+OBJ.age=30; 
+
+console.log(OBJ); 
+```
