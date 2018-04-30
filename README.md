@@ -71,4 +71,20 @@ doSomething();
 console.log(age)
 ```
 
-### 
+### A simple class / object 
+
+```javascript
+let name='Shiva'; 
+let age=25; 
+
+let obj= {
+  name:'Hari',  
+  age:10,
+  printName(){
+  console.log(this.name); 
+}
+}; 
+
+console.log(obj); 
+obj.printName()
+```
